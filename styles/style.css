@@ -188,7 +188,7 @@
   
 }
 
-.header{
+.navigation{
   display:flex;
   
 background-color: rgb(0, 0, 0);
@@ -209,6 +209,11 @@ padding: 0 8.6% 0 8.8%;
   font-weight: normal;
   
 }
+
+h1.logo__text{
+  font-size: 60px;
+}
+
 .logo__text_pink{
   color:  #EC7979;
   font-weight: normal;
@@ -231,9 +236,9 @@ padding: 0 8.6% 0 8.8%;
   padding: 0;;
 }
 
-/*.menu__list :not(:last-child){
-  margin-right: 48px;
-}*/
+.menu__list :not(:last-child){
+  margin-right: 12px;
+}/*Margin сливается?*/
 
 
 
@@ -250,3 +255,44 @@ padding: 0 8.6% 0 8.8%;
   transition:0.7s;
 }
 
+/*header-block*/
+.header__background{
+  background:url(../img/header__background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 326px;
+
+}
+
+
+
+.top{
+  display: flex;
+  justify-content: space-around;
+  
+  width: 84%;
+  
+}
+
+.margin_0{
+  margin: 0;
+}
+
+.top__text,
+.title__text {
+  text-align: left;
+}
+
+.top__text{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: space-between;
+
+  
+}
+
+.title__text{
+
+
+}
