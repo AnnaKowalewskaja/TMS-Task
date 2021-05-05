@@ -19,81 +19,191 @@
   </head>
 
   <body class="body">
-    <header class="header__background">
-      <div class="navigation">
-        <h3 class="logo__text font-family-Raleway">
-          AX<slot class="logo__text_pink">IT</slot>
-        </h3>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="" class="menu__link">feautures</a>
-            </li>
-            <li class="menu__item"><a href="" class="menu__link">about</a></li>
-            <li class="menu__item">
-              <a href="" class="menu__link">pricing</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">reviews</a>
-            </li>
-            <li class="menu__item">
-              <a href="" class="menu__link">contact</a>
-            </li>
-          </ul>
-        </nav>
+    <div class="navigation__black">
+      <div class="container">
+        <div class="navigation">
+          <a href="#" class="logo__text font-family-Raleway">
+            AX<span class="logo__text_pink">IT</span>
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="" class="menu__link">feautures</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">about</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">pricing</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">reviews</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="img-overlay img__overlay_height">
-        <div class="top">
-          <div class="top__text">
-            <h1 class="logo__text font-family-Raleway margin_0">
-              AX<slot class="logo__text_pink">IT</slot>
-            </h1>
-            <h2 class="title__text main-text-h2 font-family-Raleway margin_0">
-              MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-            </h2>
-            <hr noshade class="white-border margin_0" />
-            <p
-              class="light-text light-text-2 mrgn-lighText font-family-Raleway margin_0"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            </p>
-            <button class="button-download margin_0">Download</button>
-          </div>
+    </div>
 
-          <div class="top__form">
-            <form
-              action="mailto:lao7777@ya.ru"
-              name="registratiom"
-              class="form__registration"
-            >
-              <legend class="form__legend">
-                Try Your <slot class="logo__text_pink">FREE</slot> Trial Today
-              </legend>
-              
-              <fieldset class="form__fieldset">
-                <label for="name" class="form__label">Name</label>
-                <input type="text" id="name" class="input__border input__border_focus" />
-                <label for="email" class="form__label">Email</label
-                ><input type="email" id="email" class="input__border input__border_focus" />
-                <label for="password" class="form__label">Password</label
-                ><input type="password" id="password" class="input__border input__border_focus" />
-              </fieldset>
-              
-              <input type="submit" value="Get Started" class="form__submit input__border_focus" />
-            </form>
+    <header class="header__background">
+      <div class="img-overlay img__overlay_height">
+        <div class="container">
+          <div class="top">
+            <div class="top__text">
+              <h1 class="logo__text font-family-Raleway margin_0">
+                AX<span class="logo__text_pink">IT</span>
+              </h1>
+              <h2 class="title__text main-text-h2 font-family-Raleway margin_0">
+                MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+              </h2>
+              <hr noshade class="white-border margin_0" />
+              <p
+                class="light-text light-text-2 mrgn-lighText font-family-Raleway margin_0"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              </p>
+              <button class="button-download margin_0">Download</button>
+            </div>
+
+            <div class="top__form">
+              <form
+                action="mailto:lao7777@ya.ru"
+                name="registratiom"
+                class="form__registration"
+              >
+                <legend class="form__legend">
+                  <span
+                    >Try Your <span class="logo__text_pink"> FREE </span> Trial
+                    Today</span
+                  >
+                </legend>
+
+                <fieldset class="form__fieldset">
+                  <label for="name" class="form__label">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="input__border input__border_focus"
+                  />
+                  <label for="email" class="form__label">Email</label
+                  ><input
+                    type="email"
+                    id="email"
+                    class="input__border input__border_focus"
+                  />
+                  <label for="password" class="form__label">Password</label
+                  ><input
+                    type="password"
+                    id="password"
+                    class="input__border input__border_focus"
+                  />
+                </fieldset>
+
+                <input
+                  type="submit"
+                  value="Get Started"
+                  class="form__submit submit__border_focus button__on-white"
+                />
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="flx-allcntr clmn">
-        <h2 class="h2-text font-family-Raleway">WHY THIS IS AWESOME</h2>
-        <hr noshade class="line-border" />
-        <p class="light-text mrgn-lighText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
+      <section class="social_background">
+        <div class="container">
+          <div class="social">
+            <div class="social__left">
+              <h3 class="main-title">Social Media</h3>
+              <p class="light-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet.
+              </p>
+            </div>
+            <div class="social__right">
+              <ul class="social__icons-box">
+                <li>
+                  <a href="" class="icons-box__link"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="icons-box__link"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="icons-box__link"
+                    ><i class="fab fa-google-plus-g"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="icons-box__link"
+                    ><i class="fab fa-pinterest-p"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="icons-box__link"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="icons-box__link"
+                    ><i class="far fa-comment-alt"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="icons-box__link"
+                    ><i class="fas fa-wifi"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <section class="tabs">
+        <div class="container">
+          <div class="tabs__block">
+            <div class="tab__button">
+<button class="button_gray text-transform_uppercase">tab 1</button>
+<button class="button_gray text-transform_uppercase">tab 1</button>
+<button class="button_gray text-transform_uppercase">tab 1</button>
+            </div>
+            <div class="tab__text">
+              <h3 class="main-title text-transform_uppercase">Tabs with soft transitioning effect.</h3>
+              <p class="light-text text-transform_uppercase">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                penatibus et magnis dis parturient montes.
+                <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                bibendum laoreet.
+              </p>
+              
+              <button class="button-download button__on-white ">Download</button>
+            </div>
+            <div class="tab__image"><img class="tab__image_width" src="./img/tubs_city.png" alt="tab_city"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="flx-allcntr clmn">
+          <h2 class="h2-text font-family-Raleway">WHY THIS IS AWESOME</h2>
+          <hr noshade class="line-border" />
+          <p class="light-text mrgn-lighText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </section>
+      </div>
 
       <section class="main">
         <section class="content-box flx-allcntr">
@@ -101,7 +211,9 @@
             <div class="icon flx-allcntr clmn">
               <img src="./img/lamp.png" alt="lamp" class="img-icon" />
             </div>
-            <h3 class="main-title">Thoughtful Design</h3>
+            <h3 class="main-title main-title_margin_align">
+              Thoughtful Design
+            </h3>
             <p class="description-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet. Proin gravida dolor sit amet lacus
@@ -112,7 +224,7 @@
             <div class="icon flx-allcntr clmn">
               <img src="./img/keypad.png" alt="keypad" class="img-icon" />
             </div>
-            <h3 class="main-title">Well Crafted</h3>
+            <h3 class="main-title main-title_margin_align">Well Crafted</h3>
             <p class="description-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet. Proin gravida dolor sit amet lacus
@@ -123,7 +235,9 @@
             <div class="icon flx-allcntr clmn">
               <img src="./img/thunder.png" alt="thunder" class="img-icon" />
             </div>
-            <h3 class="main-title">Easy to Customize</h3>
+            <h3 class="main-title main-title_margin_align">
+              Easy to Customize
+            </h3>
             <p class="description-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet. Proin gravida dolor sit amet lacus
@@ -131,22 +245,18 @@
             </p>
           </div>
         </section>
+      </section>
 
-        <section class="down-content-box">
-          <div class="img-overlay">
-            <h2 class="main-text-h2 font-family-Raleway">
-              STYLISH AXURE DESIGN
-            </h2>
-            <hr noshade class="white-border" />
-            <p
-              class="light-text light-text-2 mrgn-lighText font-family-Raleway"
-            >
-              Use the sections you need, remove the ones you don't. Create
-              gorgeous prototypes faster than ever!
-            </p>
-            <button class="button-download">Download</button>
-          </div>
-        </section>
+      <section class="down-content-box">
+        <div class="img-overlay">
+          <h2 class="main-text-h2 font-family-Raleway">STYLISH AXURE DESIGN</h2>
+          <hr noshade class="white-border" />
+          <p class="light-text light-text-2 mrgn-lighText font-family-Raleway">
+            Use the sections you need, remove the ones you don't. Create
+            gorgeous prototypes faster than ever!
+          </p>
+          <button class="button-download button-download_margin">Download</button>
+        </div>
       </section>
     </main>
 
