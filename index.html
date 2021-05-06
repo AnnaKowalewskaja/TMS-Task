@@ -1,293 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link
-      href="./styles/fontawesome-free-5.15.3-web/css/all.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Axit</title>
-  </head>
 
-  <body class="body">
-    <div class="navigation__black">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link href="./styles/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>Axit</title>
+</head>
+
+<body class="body">
+  <div class="navigation__black">
+    <div class="container">
+      <div class="navigation">
+        <a href="#" class="logo__text font-family-Raleway">
+          AX<span class="logo__text_pink">IT</span>
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="" class="menu__link">feautures</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">about</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">pricing</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">reviews</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <header class="header__background">
+    <div class="img-overlay img__overlay_height">
       <div class="container">
-        <div class="navigation">
-          <a href="#" class="logo__text font-family-Raleway">
-            AX<span class="logo__text_pink">IT</span>
-          </a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="" class="menu__link">feautures</a>
-              </li>
-              <li class="menu__item">
-                <a href="" class="menu__link">about</a>
-              </li>
-              <li class="menu__item">
-                <a href="" class="menu__link">pricing</a>
-              </li>
-              <li class="menu__item">
-                <a href="" class="menu__link">reviews</a>
-              </li>
-              <li class="menu__item">
-                <a href="" class="menu__link">contact</a>
-              </li>
-            </ul>
-          </nav>
+        <div class="top">
+          <div class="top__text">
+            <h1 class="logo__text font-family-Raleway margin_0">
+              AX<span class="logo__text_pink">IT</span>
+            </h1>
+            <h2 class="title__text main-text-h2 font-family-Raleway margin_0">
+              MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+            </h2>
+            <hr noshade class="white-border margin_0" />
+            <p class="light-text light-text-2 mrgn-lighText font-family-Raleway margin_0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            </p>
+            <button class="button-download margin_0">Download</button>
+          </div>
+
+          <div class="top__form">
+            <form action="mailto:lao7777@ya.ru" name="registratiom" class="form__registration">
+              <legend class="form__legend">
+                <span>Try Your <span class="logo__text_pink"> FREE </span> Trial
+                  Today</span>
+              </legend>
+
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name</label>
+                <input type="text" id="name" class="input__border input__border_focus" />
+                <label for="email" class="form__label">Email</label><input type="email" id="email"
+                  class="input__border input__border_focus" />
+                <label for="password" class="form__label">Password</label><input type="password" id="password"
+                  class="input__border input__border_focus" />
+              </fieldset>
+
+              <input type="submit" value="Get Started" class="form__submit submit__border_focus button__on-white" />
+            </form>
+          </div>
         </div>
       </div>
     </div>
+  </header>
 
-    <header class="header__background">
-      <div class="img-overlay img__overlay_height">
-        <div class="container">
-          <div class="top">
-            <div class="top__text">
-              <h1 class="logo__text font-family-Raleway margin_0">
-                AX<span class="logo__text_pink">IT</span>
-              </h1>
-              <h2 class="title__text main-text-h2 font-family-Raleway margin_0">
-                MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-              </h2>
-              <hr noshade class="white-border margin_0" />
-              <p
-                class="light-text light-text-2 mrgn-lighText font-family-Raleway margin_0"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              </p>
-              <button class="button-download margin_0">Download</button>
-            </div>
-
-            <div class="top__form">
-              <form
-                action="mailto:lao7777@ya.ru"
-                name="registratiom"
-                class="form__registration"
-              >
-                <legend class="form__legend">
-                  <span
-                    >Try Your <span class="logo__text_pink"> FREE </span> Trial
-                    Today</span
-                  >
-                </legend>
-
-                <fieldset class="form__fieldset">
-                  <label for="name" class="form__label">Name</label>
-                  <input
-                    type="text"
-                    id="name"
-                    class="input__border input__border_focus"
-                  />
-                  <label for="email" class="form__label">Email</label
-                  ><input
-                    type="email"
-                    id="email"
-                    class="input__border input__border_focus"
-                  />
-                  <label for="password" class="form__label">Password</label
-                  ><input
-                    type="password"
-                    id="password"
-                    class="input__border input__border_focus"
-                  />
-                </fieldset>
-
-                <input
-                  type="submit"
-                  value="Get Started"
-                  class="form__submit submit__border_focus button__on-white"
-                />
-              </form>
-            </div>
+  <main>
+    <section class="social_background">
+      <div class="container">
+        <div class="social">
+          <div class="social__left">
+            <h3 class="main-title">Social Media</h3>
+            <p class="light-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet.
+            </p>
+          </div>
+          <div class="social__right">
+            <ul class="social__icons-box">
+              <li>
+                <a href="" class="icons-box__link"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="" class="icons-box__link"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="" class="icons-box__link"><i class="fab fa-google-plus-g"></i></a>
+              </li>
+              <li>
+                <a href="" class="icons-box__link"><i class="fab fa-pinterest-p"></i></a>
+              </li>
+              <li>
+                <a href="" class="icons-box__link"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="" class="icons-box__link"><i class="far fa-comment-alt"></i></a>
+              </li>
+              <li>
+                <a href="" class="icons-box__link"><i class="fas fa-wifi"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="social_background">
-        <div class="container">
-          <div class="social">
-            <div class="social__left">
-              <h3 class="main-title">Social Media</h3>
-              <p class="light-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                euismod bibendum laoreet.
-              </p>
-            </div>
-            <div class="social__right">
-              <ul class="social__icons-box">
-                <li>
-                  <a href="" class="icons-box__link"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="" class="icons-box__link"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="" class="icons-box__link"
-                    ><i class="fab fa-google-plus-g"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="" class="icons-box__link"
-                    ><i class="fab fa-pinterest-p"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="" class="icons-box__link"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="" class="icons-box__link"
-                    ><i class="far fa-comment-alt"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="" class="icons-box__link"
-                    ><i class="fas fa-wifi"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="tabs">
-        <div class="container">
-          <div class="tabs__block">
-            <div class="tab__button">
-<button class="button_gray text-transform_uppercase">tab 1</button>
-<button class="button_gray text-transform_uppercase">tab 1</button>
-<button class="button_gray text-transform_uppercase">tab 1</button>
-            </div>
-            <div class="tab__text">
-              <h3 class="main-title text-transform_uppercase">Tabs with soft transitioning effect.</h3>
-              <p class="light-text text-transform_uppercase">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                penatibus et magnis dis parturient montes.
-                <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                bibendum laoreet.
-              </p>
-              
-              <button class="button-download button__on-white ">Download</button>
-            </div>
-            <div class="tab__image"><img class="tab__image_width" src="./img/tubs_city.png" alt="tab_city"></div>
-          </div>
-        </div>
-      </section>
-
+    <section class="tabs">
       <div class="container">
-        <section class="flx-allcntr clmn">
-          <h2 class="h2-text font-family-Raleway">WHY THIS IS AWESOME</h2>
+        <div class="tabs__block">
+          <div class="tab__button">
+            <button class="button_gray text-transform_uppercase font-weight_bold">tab 1</button>
+            <button class="button_gray text-transform_uppercase font-weight_bold">tab 1</button>
+            <button class="button_gray text-transform_uppercase font-weight_bold">tab 1</button>
+          </div>
+          <div class="tab__text">
+            <h3 class="main-title text-transform_uppercase">Tabs with soft transitioning effect.</h3>
+            <p class="light-text text-transform_uppercase">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+              justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+              penatibus et magnis dis parturient montes.
+              <br><br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet.
+            </p>
+
+            <button class="button-download button__on-white ">Download</button>
+          </div>
+          <div class="tab__image"><img class="tab__image_width" src="./img/tubs_city.png" alt="tab_city"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="flx-allcntr clmn">
+        <h2 class="h2-text font-family-Raleway h2__black_margin-top">WHY THIS IS AWESOME</h2>
+        <hr noshade class="line-border" />
+        <p class="light-text mrgn-lighText">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </section>
+    </div>
+
+    <section class="main">
+      <section class="content-box flx-allcntr">
+        <div class="cell flx-allcntr clmn">
+          <div class="icon flx-allcntr clmn">
+            <img src="./img/lamp.png" alt="lamp" class="img-icon" />
+          </div>
+          <h3 class="main-title main-title_margin_align">
+            Thoughtful Design
+          </h3>
+          <p class="description-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+            accumsan et viverra.
+          </p>
+        </div>
+        <div class="cell flx-allcntr clmn">
+          <div class="icon flx-allcntr clmn">
+            <img src="./img/keypad.png" alt="keypad" class="img-icon" />
+          </div>
+          <h3 class="main-title main-title_margin_align">Well Crafted</h3>
+          <p class="description-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+            accumsan et viverra.
+          </p>
+        </div>
+        <div class="cell flx-allcntr clmn">
+          <div class="icon flx-allcntr clmn">
+            <img src="./img/thunder.png" alt="thunder" class="img-icon" />
+          </div>
+          <h3 class="main-title main-title_margin_align">
+            Easy to Customize
+          </h3>
+          <p class="description-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+            accumsan et viverra.
+          </p>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="pricing">
+      <div class="container">
+        <div class="flx-allcntr clmn">
+          <h2 class="h2-text font-family-Raleway text-transform_uppercase h2__black_margin-top">pricing options</h2>
           <hr noshade class="line-border" />
           <p class="light-text mrgn-lighText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-        </section>
-      </div>
-
-      <section class="main">
-        <section class="content-box flx-allcntr">
-          <div class="cell flx-allcntr clmn">
-            <div class="icon flx-allcntr clmn">
-              <img src="./img/lamp.png" alt="lamp" class="img-icon" />
-            </div>
-            <h3 class="main-title main-title_margin_align">
-              Thoughtful Design
-            </h3>
-            <p class="description-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra.
-            </p>
-          </div>
-          <div class="cell flx-allcntr clmn">
-            <div class="icon flx-allcntr clmn">
-              <img src="./img/keypad.png" alt="keypad" class="img-icon" />
-            </div>
-            <h3 class="main-title main-title_margin_align">Well Crafted</h3>
-            <p class="description-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra.
-            </p>
-          </div>
-          <div class="cell flx-allcntr clmn">
-            <div class="icon flx-allcntr clmn">
-              <img src="./img/thunder.png" alt="thunder" class="img-icon" />
-            </div>
-            <h3 class="main-title main-title_margin_align">
-              Easy to Customize
-            </h3>
-            <p class="description-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra.
-            </p>
-          </div>
-        </section>
-      </section>
-
-      <section class="down-content-box">
-        <div class="img-overlay">
-          <h2 class="main-text-h2 font-family-Raleway">STYLISH AXURE DESIGN</h2>
-          <hr noshade class="white-border" />
-          <p class="light-text light-text-2 mrgn-lighText font-family-Raleway">
-            Use the sections you need, remove the ones you don't. Create
-            gorgeous prototypes faster than ever!
-          </p>
-          <button class="button-download button-download_margin">Download</button>
         </div>
-      </section>
-    </main>
+        <div class="pricing__container">
+          <div class="pricing_box">
+            <div class="pricing__description">
+              <div class="description__rate font-weight_bold color-white">Basic</div>
+              <div class="description__price font-weight_bold color-white font-size__price">$0</div>
+              <div class="description__promo price__gray-text">Free for life</div>
+            </div>
+            <div class="pricing__items price__gray-text">
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+            </div>
 
-    <footer class="footer">
-      <div class="footer-content-box">
-        <ul class="icons-box">
-          <li>
-            <a href="" class="link-soc"><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li>
-            <a href="" class="link-soc"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="" class="link-soc"><i class="fab fa-google-plus-g"></i></a>
-          </li>
-          <li>
-            <a href="" class="link-soc"><i class="fab fa-pinterest-p"></i></a>
-          </li>
-          <li>
-            <a href="" class="link-soc"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="" class="link-soc"><i class="far fa-comment-alt"></i></a>
-          </li>
-          <li>
-            <a href="" class="link-soc"><i class="fas fa-wifi"></i></a>
-          </li>
-        </ul>
+          </div>
+          <div class="pricing_box box__translateY">
+            <div class="pricing__description">
+              <div class="description__rate font-weight_bold color-white">Basic</div>
+              <div class="description__price font-weight_bold color-white font-size__price">$0</div>
+              <div class="description__promo price__gray-text">Free for life</div>
+            </div>
+            <div class="pricing__items price__gray-text">
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+            </div>
 
-        <p class="foot-text">&copy;2015 Axure Themes</p>
+          </div>
+          <div class="pricing_box">
+            <div class="pricing__description">
+              <div class="description__rate font-weight_bold color-white">Basic</div>
+              <div class="description__price font-weight_bold color-white font-size__price">$0</div>
+              <div class="description__promo price__gray-text">Free for life</div>
+            </div>
+            <div class="pricing__items price__gray-text">
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+              <div class="item__description">1 gb of space</div>
+            </div>
+
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
+
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <div class="flx-allcntr clmn">
+          <h2 class="h2-text font-family-Raleway text-transform_uppercase h2__black_margin-top">what our customers are
+            saying</h2>
+          <hr noshade class="line-border" />
+          <p class="light-text mrgn-lighText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="reviews__container">
+          <div class="reviews__box ">
+            <blockquote class="reviews__blockquote">
+              <p class="price__gray-text description-text ">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Doloribus
+                accusamus expedita repellat similique
+                odio aspernatur ex, architecto eaque
+                quo suscipit.</p>
+            </blockquote>
+            <div class="revews__date">
+              <img src="./img/photo_reviews.png" alt="photo" class="reviews__photo">
+
+              <div class="date__name">
+                <h3 class="main-title ">Jeremy H.</h3>
+                <p class="proce__gray-text price__gray-text">Manager</p>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <blockquote class="reviews__blockquote">
+              <p class="price__gray-text description-text ">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Doloribus
+                accusamus expedita repellat similique
+                odio aspernatur ex, architecto eaque
+                quo suscipit.</p>
+            </blockquote>
+            <div class="revews__date">
+              <img src="./img/photo_reviews.png" alt="photo" class="reviews__photo">
+
+              <div class="date__name">
+                <h3 class="main-title ">Jeremy H.</h3>
+                <p class="proce__gray-text price__gray-text">Manager</p>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <blockquote class="reviews__blockquote">
+              <p class="price__gray-text description-text ">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Doloribus
+                accusamus expedita repellat similique
+                odio aspernatur ex, architecto eaque
+                quo suscipit.</p>
+            </blockquote>
+            <div class="revews__date">
+              <img src="./img/photo_reviews.png" alt="photo" class="reviews__photo">
+
+              <div class="date__name">
+                <h3 class="main-title ">Jeremy H.</h3>
+                <p class="proce__gray-text price__gray-text">Manager</p>
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+
+
+
+    <section class="down-content-box">
+      <div class="img-overlay">
+        <h2 class="main-text-h2 font-family-Raleway">STYLISH AXURE DESIGN</h2>
+        <hr noshade class="white-border" />
+        <p class="light-text light-text-2 mrgn-lighText font-family-Raleway">
+          Use the sections you need, remove the ones you don't. Create
+          gorgeous prototypes faster than ever!
+        </p>
+        <button class="button-download  button-download_margin">Download</button>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="flx-allcntr clmn">
+          <h2 class="h2-text font-family-Raleway text-transform_uppercase h2__black_margin-top">contact us</h2>
+          <hr noshade class="line-border" />
+          <p class="light-text mrgn-lighText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+
+        <form action="mailto:lao7777@ya.ru" name="registration2" class="form__registration_wide">
+
+
+          <fieldset class="form__fieldset_wide">
+            <div class="form__left">
+              <label for="name2" class="form__label form__label_2">Name</label>
+              <input type="text" id="name2" class="input__border input__border_focus">
+              <label for="email2" class="form__label form__label_2">Email</label><input type="email" id="email2"
+                class="input__border input__border_focus">
+              <label for="password2" class="form__label form__label_2">Password</label><input type="password" id="password2"
+                class="input__border input__border_focus">
+
+
+
+            </div>
+            <div class="form__right">
+              <label for="message" class="form__label">Message</label>
+              <textarea name="Message" id="message" class="textarea input__border input__border_focus" cols="30"
+                rows="10"></textarea>
+            </div>
+
+          </fieldset>
+
+          <button class="button-download button__on-white button__more-width ">Send Message </button>
+        </form>
+
+
+
+
+
+      </div>
+    </section>
+
+
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content-box">
+      <ul class="icons-box">
+        <li>
+          <a href="" class="link-soc"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="" class="link-soc"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="" class="link-soc"><i class="fab fa-google-plus-g"></i></a>
+        </li>
+        <li>
+          <a href="" class="link-soc"><i class="fab fa-pinterest-p"></i></a>
+        </li>
+        <li>
+          <a href="" class="link-soc"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="" class="link-soc"><i class="far fa-comment-alt"></i></a>
+        </li>
+        <li>
+          <a href="" class="link-soc"><i class="fas fa-wifi"></i></a>
+        </li>
+      </ul>
+
+      <p class="foot-text">&copy;2015 Axure Themes</p>
+    </div>
+  </footer>
+</body>
+
 </html>
