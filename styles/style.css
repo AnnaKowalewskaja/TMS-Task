@@ -6,7 +6,7 @@
 :root{
   --pink : #EC7979;
   --gray : #86878b;
-
+--size_block:40px;
 }
 
 
@@ -32,7 +32,7 @@
 
 .content-box {
   display: flex;
-
+margin-bottom: 104px;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -47,7 +47,7 @@
   font-size: 36px;
   color: #212121;
   
-  
+  font-weight: normal;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -126,7 +126,7 @@ background-position: center;
 .img-overlay {
   display: flex;
   flex-direction: column;
-  
+  padding-bottom: 33px;
   align-items: center;
 
   
@@ -153,6 +153,13 @@ background-position: center;
   cursor: pointer;
     max-width: 125px;
     max-height: 41px;
+}
+
+.button__more-width{
+  max-width: 166px;
+  align-self:center;
+  min-width: 152px;
+  margin-top: 65px;
 }
 
 .button-download:hover {
@@ -214,7 +221,7 @@ background-position: center;
 .navigation__black{
   position: sticky;
   top:0;
- 
+ z-index: 10;
   background-color: rgb(0, 0, 0);
 width: 100%;
 }
@@ -353,8 +360,17 @@ min-height:370px;
   flex: 1 1 auto;
   justify-content: space-between;
 
-  
 }
+
+.form__registration_wide{
+  display: flex;
+  flex-direction: column;
+  margin: 95px 0 44px;
+
+  justify-content: space-between;
+
+}
+
 
 .form__submit{
   background: var(--pink);
@@ -390,6 +406,18 @@ width: 252px;
   margin-left: 59px;
 }
 
+.form__fieldset_wide{
+ 
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+  
+}
+
 
 .form__label{
   font-size: 14px;
@@ -400,6 +428,10 @@ color: #BDBDBD;
 
 .form__label:nth-child(n+2){
   margin-top: 19px;
+}
+
+.form__label_2:nth-child(n+2){
+  margin-top: 30px;
 }
 
 .input__border{
@@ -483,7 +515,7 @@ color:var(--gray);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
- margin:126px 0 205px
+ margin:126px 0 125px
  }
 
 .tab__button{
@@ -535,4 +567,165 @@ text-align: center;
 
  .button-download_margin{
    margin-top:57px;
+   
  }
+
+ .pricing{
+   background-color: #F5F5F5;
+ }
+ .h2__black_margin-top{
+   margin-top: 80px;
+ }
+
+ .pricing__container{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   margin-top: 62px ;
+ }
+
+ .box__translateY{
+   transform: translateY(-15px);
+ }
+
+ .price__gray-text{
+  color: #86878B;
+  font-size: 14px;
+  line-height: 19px;
+ }
+ .pricing__description > div{
+   background-color: #333333;
+   width: 100%;
+ }
+
+ .pricing__description :first-child{
+  margin-bottom: 1px;
+}
+  .pricing__description :not(:first-child){
+  margin-bottom: 2px;
+}
+ 
+
+ .font-weight_bold{
+  font-weight: bold;
+ }
+
+ .color-white{
+   color:#FFFFFF;
+ }
+
+
+.reviews__box{
+  max-width: 298px;
+}
+ 
+
+ 
+ .font-size__price{
+  font-size: 35px;
+ }
+
+.pricing__description >div{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+ .pricing__description :first-child{
+  font-size: 20px;
+ 
+ }
+
+ .pricing_box{
+max-width: 340px;
+width: 29%;
+margin-bottom: 60px;
+ }
+
+ .description__rate,
+ .description__promo{
+   height: 50px;
+ }
+
+ .description__price{
+   height: 100px;
+ }
+ 
+ .item__description{
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-top: 4px;
+  overflow: hidden;
+  height: var(--size_block);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+ }
+
+ .reviews__container{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top:47px ;
+ }
+ .price__gray-text {
+  color: #86878B;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.reviews__photo{
+  border-radius:50%;
+}
+
+.reviews__blockquote{
+  background: #E2E2E2;
+  border-radius: 7px;
+  max-width: 300px;
+  margin: 20px 0;
+  padding: 14px 14px;
+ 
+}
+
+
+.revews__date{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.date__name{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.form__left,
+.form__right{
+  max-width: 478px;
+  max-height: 216px;
+  width: 50%;
+  height: 100%;
+}
+
+.form__left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 3px;
+  margin-bottom: 30px;
+}
+
+
+.textarea{
+  resize: none;
+  overflow: auto;
+}
+
+#password2{
+  min-height: 40px;
+}
+
+#name2,
+#email2{
+  min-height: 30px;
+}
